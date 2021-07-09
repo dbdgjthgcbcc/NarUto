@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+#welcome {
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    height: 800px;
+    color: snow;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top: 500px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+#videos {
+    padding: 50px;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    background-color: darkturquoise;
+    overflow: hidden;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.parallax-container {
+    background-image: url("https://th.bing.com/th/id/OIP.xkUBjwhY-2_glwvxdlBgfgHaEK?w=309&h=180&c=7&o=5&dpr=1.25&pid=1.7");
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30px;
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
+
+#article {
+    padding: 50px;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    background-color: chocolate;
+    overflow: hidden;
+    margin-top: 500px;
+}
+
+#wiki {
+    padding: 50px;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+    background-color: chartreuse;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.articles:hover {
+    color: fuchsia;
+}
